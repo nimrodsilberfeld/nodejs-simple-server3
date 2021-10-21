@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": ".\\node_modules\\.bin\\env-cmd -f .\\config\\dev.env nodemon .\\src\\server.js",
+    "start": "node src/server.js"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
